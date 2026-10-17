@@ -27,4 +27,5 @@ object Routes {
     const val GAME_MUSIC = "game_music"
     const val GAME_COOKING = "game_cooking"
     const val GAME_CODE = "game_code"
+    const val GAME_PIANO = "game_piano"
 }

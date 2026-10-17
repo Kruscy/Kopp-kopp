@@ -63,6 +63,7 @@ class SoundFx(context: Context) {
         val harmonic: Double = 0.35,
         val sweepTo: Double = freq,
         val flat: Boolean = false,
+        val h3: Double = 0.0,
     )
 
     private companion object {
@@ -84,6 +85,19 @@ class SoundFx(context: Context) {
             "n3" to listOf(Note(587.3, 560, 0.8, 0.3)),
             "n4" to listOf(Note(523.3, 600, 0.9, 0.3)),
             "n5" to listOf(Note(150.0, 260, 1.0, 0.4, sweepTo = 60.0)),
+            "p0" to listOf(Note(261.63, 1500, 0.9, 0.5, h3 = 0.25)),
+            "p1" to listOf(Note(277.18, 1500, 0.9, 0.5, h3 = 0.25)),
+            "p2" to listOf(Note(293.66, 1500, 0.9, 0.5, h3 = 0.25)),
+            "p3" to listOf(Note(311.13, 1500, 0.9, 0.5, h3 = 0.25)),
+            "p4" to listOf(Note(329.63, 1500, 0.9, 0.5, h3 = 0.25)),
+            "p5" to listOf(Note(349.23, 1500, 0.9, 0.5, h3 = 0.25)),
+            "p6" to listOf(Note(369.99, 1500, 0.9, 0.5, h3 = 0.25)),
+            "p7" to listOf(Note(392.0, 1500, 0.9, 0.5, h3 = 0.25)),
+            "p8" to listOf(Note(415.3, 1500, 0.9, 0.5, h3 = 0.25)),
+            "p9" to listOf(Note(440.0, 1500, 0.9, 0.5, h3 = 0.25)),
+            "p10" to listOf(Note(466.16, 1500, 0.9, 0.5, h3 = 0.25)),
+            "p11" to listOf(Note(493.88, 1500, 0.9, 0.5, h3 = 0.25)),
+            "p12" to listOf(Note(523.25, 1500, 0.9, 0.5, h3 = 0.25)),
             "goal" to listOf(Note(523.0, 120, 0.8), Note(659.0, 120, 0.8), Note(784.0, 120, 0.8), Note(1047.0, 320, 0.9)),
             "win" to listOf(
                 Note(523.0, 140, 0.8), Note(523.0, 140, 0.8), Note(784.0, 140, 0.8),
@@ -103,7 +117,7 @@ class SoundFx(context: Context) {
                     val f = n.freq + (n.sweepTo - n.freq) * (i / count.toDouble())
                     phase += 2 * PI * f / RATE
                     val env = if (n.flat) minOf(1.0, i / 60.0) * minOf(1.0, (count - i) / 220.0) else exp(-decay * t) * minOf(1.0, i / 60.0)
-                    val v = (sin(phase) + n.harmonic * sin(2 * phase)) * env * n.gain * 0.55
+                    val v = (sin(phase) + n.harmonic * sin(2 * phase) + n.h3 * sin(3 * phase)) * env * n.gain * 0.55
                     val sample = (v * 32767).toInt().coerceIn(-32768, 32767)
                     pcm.write(sample and 0xFF)
                     pcm.write((sample shr 8) and 0xFF)

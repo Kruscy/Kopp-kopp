@@ -381,3 +381,7 @@ Az alkalmazás neve mostantól **Kopp-kopp** (a launcher-név és a kezdőoldal 
 ## Két mese kikerült (v28 / 1.27)
 
 A kis gömböc és a mézeskalács-emberke túlságosan hasonlított a Pogácsához, ezért kikerült a mesekönyvből (14 mese maradt). A szöveg a `mesek/mesek_szoveg_2.md` végén van, a kép és a hang a (git által kizárt) `mesek/kivett/` mappában.
+
+## Zongora (v29 / 1.28)
+
+Új játék (Zongora): egy oktáv (C-től C-ig) fehér és fekete billentyűvel, a lenyomott billentyű kivilágosodik. Több ujjal is játszható, és az ujjat csúsztatva a hangok végigfutnak a billentyűkön. A hangok zongorához hasonló, a SoundFx által generált hangok.
