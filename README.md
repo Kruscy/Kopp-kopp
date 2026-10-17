@@ -14,7 +14,6 @@ A projekt jelenleg belső tesztelésben van a Play-en, de **nincs rá szükség*
 közvetlenül feltölthető a készülékre.
 
 1. Töltsd le a legfrissebb APK-t a [Releases oldalról](https://github.com/Kruscy/Kopp-kopp/releases/latest) (az *Assets* alatt a `.apk` fájl, kb. 90 MB).
-   (a GitHubon a fájl oldalán a *Download raw file* gombbal; kb. 80 MB).
 2. Nyisd meg a tableten/telefonon, és engedélyezd az ismeretlen forrásból való telepítést
    (Android 8.0+ / API 26+; a rendszer rákérdez, melyik alkalmazásnak engedélyezed).
 3. Első indításkor az alkalmazás egy 4 jegyű PIN kódot kér a szülői zároláshoz.
