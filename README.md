@@ -1,4 +1,4 @@
-# Kölyök Játékok (Kopp-kopp)
+# Kopp-kopp
 
 > **Nem kereskedelmi projekt.** A forráskód, a képek és a hangok jelenleg csak megtekintésre,
 > személyes tesztelésre és a tulajdonossal egyeztetett közös fejlesztésre használhatók.
@@ -373,3 +373,7 @@ A Zene játék megnyitáskor magától elindul, és lassabban (520 ms/lépés) j
 ## Öt új mese: 11 mese a mesekönyvben (v26 / 1.25)
 
 A répa, A kis gömböc, A teknős és a nyúl, A mézeskalács-emberke, Az egér és az oroszlán (mesenként 8 oldal, kép és magyar hang). A szövegek a `mesek/mesek_szoveg.md`-ben vannak; a további 6 mese szövege (`mesek/mesek_szoveg_2.md`) még kép és hang nélkül vár. A mesekönyv polca 11 mesével már görgethető. A hangokat fizetős (Starter) csomagon generáltuk.
+
+## Kopp-kopp: új név, 16 mese (v27 / 1.26)
+
+Az alkalmazás neve mostantól **Kopp-kopp** (a launcher-név és a kezdőoldal címe). Öt új mese: A vitéz szabólegény, Az aranytojást tojó tyúk, A farkas és a bárány, A Csizmás kandúr, A tücsök és a hangya, így 16 mese van a mesekönyvben. Hátra van Jancsi és Juliska (szöveg kész, kép és hang még nincs).

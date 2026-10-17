@@ -30,6 +30,11 @@ titles = {
     "teknos": ("A teknős és a nyúl", "🐢"),
     "mezeskalacs": ("A mézeskalács-emberke", "🍪"),
     "eger": ("Az egér és az oroszlán", "🦁"),
+    "szabo": ("A vitéz szabólegény", "✂️"),
+    "tyuk": ("Az aranytojást tojó tyúk", "🐔"),
+    "barany": ("A farkas és a bárány", "🐑"),
+    "kandur": ("A Csizmás kandúr", "🐈"),
+    "tuecsok": ("A tücsök és a hangya", "🦗"),
 }
 assert set(titles) == set(tales), (set(titles) ^ set(tales))
 
