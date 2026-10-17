@@ -1,153 +1,127 @@
-# Mondókák – szövegtervezet
+# Mondókák – szövegek
 
-Minden mondóka egy képernyő: egy rajz, egy ritmusos felolvasás és a szöveg. A szövegek **első piszkozatok**, népi mondóka-stílusban,
-saját megfogalmazásban írtam őket; a pontos hagyományos változatot átnézés után lehet rájuk cserélni. A jogi helyzet a
-[JOGOK.md](JOGOK.md) fájlban van, kiadás előtt azt végig kell nézni.
+Minden mondóka egy képernyő: egy rajz, egy ritmusos felolvasás és a szöveg.
 
-A sorrend: először a felhasználó listája (1–6), utána az én javaslataim (7–).
+**A szövegek valódi, létező mondókák**, kikeresve (nem kitalálva) a mondokak.hu oldalról; a szerzőket külön ellenőriztem.
+Az első hat a felhasználó listája, a többi hagyományos mondóka. A jogi állapotról lásd: [JOGOK.md](JOGOK.md).
 
 ## 1. Volt egyszer egy dinnyeföld
 Volt egyszer egy dinnyeföld,
-benne sok-sok kerek dinnye.
-Kerek dinnye, édes dinnye,
-jusson belőle mindenkinek!
+dinnyeföldön dinnye nőtt.
+Egy sem piros, egy sem zöld,
+csupa sárga volt a föld!
 
 ## 2. Cserregnek a verebek
-Cserregnek a verebek,
-ropog a hó, hideg van.
-Morzsát szór az ablakból
-egy kis kezű kisgyerek.
+*(Gazdag Erzsi: Nyár – az első négy sor; szerzői jogvédett, kiadás előtt kivenni)*
+Cserregnek a verebek.
+Nagy újság van, gyerekek!
+Kis kertünkben hajnalra
+kinyílott a hajnalka.
 
 ## 3. Zápor előtt, zápor után
+*(Kányádi Sándor: Zápor előtt; szerzői jogvédett, kiadás előtt kivenni)*
 Zápor előtt, zápor után,
-tócsa van a ház előtt.
-Ugrik a béka, ugrik a gyerek,
-csupa víz lesz a csizmám.
+mindig ugat az én kutyám:
+zápor előtt a felleget,
+zápor után a kék eget.
+
+De ha megzúdul a zuhé,
+húzza farkát lába közé.
 
 ## 4. Kémény tetején kelepel a gólya
+*(Gryllus Vilmos dalaként ismert; szerzői jog kiadás előtt tisztázandó)*
 Kémény tetején kelepel a gólya,
-kelep-kelep, kelep-kelep.
-Mit hozott a csőrében?
-Egy kisbabát a kisgyereknek.
+fészkét gallyakból, kiságakból fonja.
+Belseje néhány pihe-puha szalma.
 
 ## 5. Szita, szita, sűrű szita
 Szita, szita, sűrű szita,
-szitáljuk a lisztecskét.
-Lesz belőle pogácsa,
-mindenkinek jut egy falat.
+ma szitálok, holnap sütök,
+neked egy kis cipót sütök,
+megzsírozom, megvajazom,
+mégis, mégis neked adom.
 
 ## 6. Aki fázik, vacogjon
+*(Kányádi Sándor verseként is ismert, egy gyűjtemény népi mondókaként közli; szerzői jog kiadás előtt tisztázandó)*
 Aki fázik, vacogjon,
-aki nem fázik, ugorjon!
-Egy, kettő, három, hopp,
-kezet fogunk, ugrunk nagyot.
+fújja körmét, topogjon,
+földig érő kucsmában,
+nyakig érő csizmában,
+bújjon be a dunyhába,
+üljön rá a kályhára.
+Mindjárt megmelegszik.
 
 ## 7. Ez elment vadászni
 Ez elment vadászni,
 ez meglőtte,
 ez hazavitte,
 ez megsütötte,
-ez a kis pici mind megette.
+és ez az icike-picike mind megette!
 
 ## 8. Hüvelykujjam almafa
 Hüvelykujjam almafa,
 mutatóujjam megrázta,
 középső ujjam felszedte,
 gyűrűs ujjam hazavitte,
-kisujjam mind megette.
+ez a picike mind megette,
+tele lett a hasa tőle.
 
-## 9. Tente baba, tente
-Tente, baba, tente,
-tente, kicsi szívem.
-Alszik a kisgyerek,
-csillag ragyog az égen.
-
-## 10. Csigabiga, gyere ki
+## 9. Csigabiga, gyere ki
 Csigabiga, gyere ki,
-ég a házad ideki!
-Bújj ki gyorsan, jöjj elő,
-süt a nap, jó az idő.
+ég a házad ideki.
+Kapsz tejet, vajat,
+holnapra is marad.
 
-## 11. Hinta-palinta
-Hinta-palinta,
-hintázik a kisgyerek,
-előre, hátra, fel és le,
-és mosolyog az ég.
+## 10. Hinta, palinta
+Hinta, palinta,
+régi dunna kiskatona,
+ugorj a Tiszába,
+zsupsz!
 
-## 12. Gyí, paci, gyí
-Gyí, paci, gyí,
-vágtat a kis ló.
-Ügetve, ügetve,
-a dombon felfelé.
+## 11. Süss fel, Nap
+Süss fel, Nap,
+fényes Nap!
+Kertek alatt a libáim
+megfagynak.
+Terítsd rájuk köpönyeged,
+adjál nekik jó meleget!
+Süss fel, Nap,
+kedves Nap!
 
-## 13. Süss fel, nap
-Süss fel, nap, fényes nap,
-kertek alatt a ludaim,
-mind kimentek a rétre,
-a sárga virágokhoz.
-
-## 14. Esik az eső
-Esik az eső, ázik a heveder,
-csepereg, csepereg,
-a kisgyerek elbújik,
-az esernyő alatt nevet.
-
-## 15. Nyuszi ül a fűben
-Nyuszi ül a fűben, fűben,
-nem tud ugrani.
-Nyuszi, nyuszi, ugorj egyet,
-jön a róka, fuss!
-
-## 16. Kis kacsa fürdik
-Kis kacsa fürdik fekete tóban,
-kuruttyol a béka mellette.
-Pacsi-pacsi, fröccsen a víz,
-kacagunk, kiabálunk.
-
-## 17. Egy, kettő, három, négy
+## 12. Egy, kettő, három, négy
 Egy, kettő, három, négy,
-tapsolunk, és nagyot nevetünk.
-Öt, hat, hét, nyolc,
-ugrik a nyuszi, hopp, hopp, hopp.
+te kis legény, hová mégy?
+Nem megyek én messzire,
+csak a falu végire.
 
-## 18. Lánc, lánc, eszterlánc
-Lánc, lánc, eszterlánc,
-eszterlánci cérna.
-Cérna, cérna, selyemcérna,
-gyere, gyere, kisgyerek.
-
-## 19. Töröm a diót
-Töröm, töröm a diót,
-ropog a dió, jaj de jó.
-Kicsi, nagy, mind eltörik,
-mindenki kap egy diót.
-
-## 20. Bújj, bújj, zöld ág
-Bújj, bújj, zöld ág,
-zöld levelecske.
-Kerek erdő, nagy mező,
-kis virágos kert.
-
-## 21. Ég a gyertya, ég
+## 13. Ég a gyertya, ég
 Ég a gyertya, ég,
-ki ne aludjék.
-Aki gyertyát oltogat,
-az lesz a legboldogabb.
+el ne aludjék,
+aki lángot látni akar,
+mind leguggoljék!
 
-## 22. Gólya, gólya, gilice
+## 14. Gólya, gólya, gilice
 Gólya, gólya, gilice,
 mitől véres a lábad?
 Török gyerek megvágta,
-magyar gyerek gyógyítja.
+magyar gyerek gyógyítja,
+síppal, dobbal, nádi hegedűvel.
 
-## 23. Aludj, baba, aludj
-Aludj, baba, aludj,
-a szemed is lehunyd.
-Csillag ragyog az égen,
-anya vigyáz rád.
+## 15. Cini, cini muzsika
+Cini, cini muzsika,
+táncol a kis Zsuzsika,
+jobbra dűl,
+meg balra dűl,
+tücsök koma hegedül.
 
-## 24. Cini-cini muzsika
-Cini-cini muzsika,
-szól a hegedű.
-Táncol a kisgyerek,
-táncol a nyuszi is.
+## 16. Ciróka-maróka
+Ciróka-maróka,
+nem láttál egy kismalacot?
+Itt a nyoma, itt a nyoma,
+itt a csiklandója!
+
+## 17. Kecske ment a kiskertbe
+Kecske ment a kiskertbe,
+a káposztát megette.
+Siess, kecske, ugorj ki!
+Jön a gazda megfogni.
