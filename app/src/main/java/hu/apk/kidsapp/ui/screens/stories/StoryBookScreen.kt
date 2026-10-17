@@ -56,25 +56,30 @@ private val Paper = Color(0xFFFFF3DC)
 
 /** Mesekönyv: a polcról választott mese oldalról oldalra felolvasva, képekkel, magától lapozva. */
 @Composable
-fun StoryBookScreen(onBack: () -> Unit) {
+fun StoryBookScreen(
+    onBack: () -> Unit,
+    title: String = "Mesék",
+    items: List<Story> = stories,
+    otherLabel: String = "📚 Másik mese",
+) {
     var open by remember { mutableStateOf<Int?>(null) }
     val idx = open
     if (idx == null) {
-        StoryShelf(onBack = onBack, onOpen = { open = it })
+        StoryShelf(onBack = onBack, title = title, items = items, onOpen = { open = it })
     } else {
-        StoryReader(story = stories[idx], onClose = { open = null })
+        StoryReader(story = items[idx], otherLabel = otherLabel, onClose = { open = null })
     }
 }
 
 @Composable
-private fun StoryShelf(onBack: () -> Unit, onOpen: (Int) -> Unit) {
+private fun StoryShelf(onBack: () -> Unit, title: String, items: List<Story>, onOpen: (Int) -> Unit) {
     Box(modifier = Modifier.fillMaxSize().background(KidBackground)) {
         Column(modifier = Modifier.fillMaxSize().padding(24.dp)) {
             Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.fillMaxWidth()) {
                 BackButton(onClick = onBack)
                 Spacer(Modifier.weight(1f))
                 Text(
-                    "Mesék",
+                    title,
                     style = MaterialTheme.typography.titleLarge,
                     fontWeight = FontWeight.Bold,
                     color = KidText,
@@ -89,7 +94,7 @@ private fun StoryShelf(onBack: () -> Unit, onOpen: (Int) -> Unit) {
                     .verticalScroll(rememberScrollState()),
                 verticalArrangement = Arrangement.spacedBy(20.dp, Alignment.CenterVertically),
             ) {
-                stories.withIndex().toList().chunked(3).forEach { rowItems ->
+                items.withIndex().toList().chunked(3).forEach { rowItems ->
                     Row(
                         modifier = Modifier.fillMaxWidth(),
                         horizontalArrangement = Arrangement.spacedBy(24.dp),
@@ -133,7 +138,7 @@ private fun StoryShelf(onBack: () -> Unit, onOpen: (Int) -> Unit) {
 }
 
 @Composable
-private fun StoryReader(story: Story, onClose: () -> Unit) {
+private fun StoryReader(story: Story, otherLabel: String, onClose: () -> Unit) {
     val player = rememberClipPlayer()
     var page by remember { mutableIntStateOf(0) }
     var playing by remember { mutableStateOf(true) }
@@ -189,7 +194,48 @@ private fun StoryReader(story: Story, onClose: () -> Unit) {
             label = "storyPage",
             modifier = Modifier.fillMaxSize(),
         ) { p ->
-            Box(modifier = Modifier.fillMaxSize()) {
+            if (story.pages.size == 1) {
+                // egyoldalas mondóka: a kép balra, a szöveg jobbra, nagy betűkkel
+                Row(
+                    modifier = Modifier.fillMaxSize().padding(start = 20.dp, end = 20.dp, top = 100.dp, bottom = 20.dp),
+                    verticalAlignment = Alignment.CenterVertically,
+                ) {
+                    Image(
+                        painter = painterResource(story.pages[p].image),
+                        contentDescription = null,
+                        contentScale = ContentScale.Crop,
+                        modifier = Modifier
+                            .weight(1.5f)
+                            .aspectRatio(16f / 9f)
+                            .clip(RoundedCornerShape(28.dp)),
+                    )
+                    Box(
+                        modifier = Modifier
+                            .weight(1f)
+                            .fillMaxSize()
+                            .padding(start = 20.dp),
+                        contentAlignment = Alignment.Center,
+                    ) {
+                        Box(
+                            modifier = Modifier
+                                .clip(RoundedCornerShape(26.dp))
+                                .background(Color.White.copy(alpha = 0.92f))
+                                .padding(horizontal = 22.dp, vertical = 16.dp)
+                                .verticalScroll(rememberScrollState()),
+                        ) {
+                            Text(
+                                story.pages[p].text,
+                                fontSize = 26.sp,
+                                lineHeight = 36.sp,
+                                fontWeight = FontWeight.Medium,
+                                color = KidText,
+                                textAlign = TextAlign.Center,
+                                modifier = Modifier.fillMaxWidth(),
+                            )
+                        }
+                    }
+                }
+            } else Box(modifier = Modifier.fillMaxSize()) {
                 Image(
                     painter = painterResource(story.pages[p].image),
                     contentDescription = null,
@@ -225,20 +271,22 @@ private fun StoryReader(story: Story, onClose: () -> Unit) {
         ) {
             BackButton(onClick = onClose)
             Spacer(Modifier.weight(1f))
-            Row(
-                modifier = Modifier
-                    .clip(RoundedCornerShape(20.dp))
-                    .background(Color.White.copy(alpha = 0.8f))
-                    .padding(horizontal = 14.dp, vertical = 10.dp),
-                horizontalArrangement = Arrangement.spacedBy(8.dp),
-                verticalAlignment = Alignment.CenterVertically,
-            ) {
-                for (i in 0..last) {
-                    Box(
-                        modifier = Modifier
-                            .size(if (i == page) 16.dp else 11.dp)
-                            .background(if (i <= page) Color(0xFF8D6E63) else Color(0xFFD7CCC8), CircleShape),
-                    )
+            if (last > 0) {
+                Row(
+                    modifier = Modifier
+                        .clip(RoundedCornerShape(20.dp))
+                        .background(Color.White.copy(alpha = 0.8f))
+                        .padding(horizontal = 14.dp, vertical = 10.dp),
+                    horizontalArrangement = Arrangement.spacedBy(8.dp),
+                    verticalAlignment = Alignment.CenterVertically,
+                ) {
+                    for (i in 0..last) {
+                        Box(
+                            modifier = Modifier
+                                .size(if (i == page) 16.dp else 11.dp)
+                                .background(if (i <= page) Color(0xFF8D6E63) else Color(0xFFD7CCC8), CircleShape),
+                        )
+                    }
                 }
             }
             Spacer(Modifier.weight(1f))
@@ -271,7 +319,7 @@ private fun StoryReader(story: Story, onClose: () -> Unit) {
                     Spacer(Modifier.height(18.dp))
                     Row(horizontalArrangement = Arrangement.spacedBy(16.dp)) {
                         EndButton("🔁 Újra", Color(0xFF43A047)) { go(0) }
-                        EndButton("📚 Másik mese", Color(0xFF8D6E63)) { onClose() }
+                        EndButton(otherLabel, Color(0xFF8D6E63)) { onClose() }
                     }
                 }
             }

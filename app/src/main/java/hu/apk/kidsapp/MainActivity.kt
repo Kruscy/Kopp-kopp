@@ -48,6 +48,7 @@ import hu.apk.kidsapp.ui.screens.music.MusicScreen
 import hu.apk.kidsapp.ui.screens.piano.PianoScreen
 import hu.apk.kidsapp.ui.screens.scene.SceneWorldScreen
 import hu.apk.kidsapp.ui.screens.stories.StoryBookScreen
+import hu.apk.kidsapp.ui.screens.stories.mondokak
 import hu.apk.kidsapp.ui.screens.mosaic.MosaicGameScreen
 import hu.apk.kidsapp.ui.screens.pour.PourGameScreen
 import hu.apk.kidsapp.ui.screens.snake.SnakeGameScreen
@@ -281,6 +282,9 @@ private fun AppRoot(activity: ComponentActivity, pinManager: PinManager) {
         }
         composable(Routes.GAME_PIANO) {
             PianoScreen(onBack = { back() })
+        }
+        composable(Routes.GAME_RHYMES) {
+            StoryBookScreen(onBack = { back() }, title = "Mondókák", items = mondokak, otherLabel = "🎵 Másik mondóka")
         }
     }
     }

@@ -2,4 +2,4 @@
 <!-- A hangokat név szerint töltjük be (getIdentifier), ezért az erőforrás-zsugorítás ne törölje őket. -->
 <resources
     xmlns:tools="http://schemas.android.com/tools"
-    tools:keep="@raw/voice_*,@raw/mese_*,@raw/lang_*,@raw/st_*" />
+    tools:keep="@raw/voice_*,@raw/mese_*,@raw/lang_*,@raw/st_*,@raw/mondoka_*" />

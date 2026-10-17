@@ -385,3 +385,7 @@ A kis gömböc és a mézeskalács-emberke túlságosan hasonlított a Pogácsá
 ## Zongora (v29 / 1.28)
 
 Új játék (Zongora): egy oktáv (C-től C-ig) fehér és fekete billentyűvel, a lenyomott billentyű kivilágosodik. Több ujjal is játszható, és az ujjat csúsztatva a hangok végigfutnak a billentyűkön. A hangok zongorához hasonló, a SoundFx által generált hangok.
+
+## Mondókák (v30 / 1.29)
+
+Új játék (Mondókák): 32 hagyományos mondóka (17 rövid és 15 hosszabb, 6-8 soros), mindegyikhez saját rajz (ugyanaz az akvarell stílus, mint a meséknél) és felolvasás. Ugyanaz a polc és olvasó, mint a mesekönyvé (egy oldalas mondókákhoz külön elrendezés: kép balra, szöveg jobbra). A szövegek és a jogi állapot: `mondokak/mondokak_szoveg.md`, `mondokak/JOGOK.md` (a Gazdag Erzsi, Kányádi Sándor és Gryllus Vilmos darabokat kiadás előtt ki kell venni). A Kémény tetején, a Zápor előtt, a Cserregnek a verebek és az Aki fázik szövege jogvédett, kiadás előtt kivenni.
