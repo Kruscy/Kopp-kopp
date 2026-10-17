@@ -1,0 +1,23 @@
+# id, angol, német névelő, német főnév, magyar, a kép generation id
+ANIMALS = [
+    ("dog", "Dog", "der", "Hund", "kutya", "5nJqHNec9JmRrd4eSLEt"),
+    ("cat", "Cat", "die", "Katze", "cica", "4inaAYTL2X1KqwlULLZu"),
+    ("cow", "Cow", "die", "Kuh", "tehén", "zy68wnm8rtSb5Cvu0pNo"),
+    ("horse", "Horse", "das", "Pferd", "ló", "V8g0By03Fy95D9L7yD7g"),
+    ("pig", "Pig", "das", "Schwein", "malac", "bHaddNTodGLtsBGiJ7g3"),
+    ("sheep", "Sheep", "das", "Schaf", "bárány", "LjoUd2k7nTVbSLijkUhP"),
+    ("chicken", "Chicken", "das", "Huhn", "tyúk", "wLsZuv7KF7M4NyZ1Pos6"),
+    ("duck", "Duck", "die", "Ente", "kacsa", "HS5cLP3mg1KUilnJdSHH"),
+    ("rabbit", "Rabbit", "das", "Kaninchen", "nyuszi", "40VVL53qmnSKk4iT5q5K"),
+    ("mouse", "Mouse", "die", "Maus", "egér", "lsuWUc6TEHgordQnIQvF"),
+    ("bird", "Bird", "der", "Vogel", "madár", "o2Z7bi5FZF3zkvOBydhp"),
+    ("fish", "Fish", "der", "Fisch", "hal", "KqCMx6Aub2EcdHgWvvfX"),
+    ("frog", "Frog", "der", "Frosch", "béka", "osebMWE08BtgByUiDEeO"),
+    ("elephant", "Elephant", "der", "Elefant", "elefánt", "A82JE58PD0Kv35DwUg7f"),
+    ("lion", "Lion", "der", "Löwe", "oroszlán", "CH0utFqCjNAkJWJNynrq"),
+    ("monkey", "Monkey", "der", "Affe", "majom", "8CtuBw779HL5y14eWhrV"),
+    ("bear", "Bear", "der", "Bär", "medve", "DtGMGbQuiUHZAj0Jvx6G"),
+    ("giraffe", "Giraffe", "die", "Giraffe", "zsiráf", "zeJxqnrNhZ3ZSr3ybv04"),
+    ("butterfly", "Butterfly", "der", "Schmetterling", "pillangó", "PaEWVI0zlStlBJxk4gS9"),
+    ("squirrel", "Squirrel", "das", "Eichhörnchen", "mókus", "sqre1lmgk2CpTudYaZ5A"),
+]

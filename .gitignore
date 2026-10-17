@@ -1,0 +1,22 @@
+*.iml
+.gradle/
+/local.properties
+/.idea/
+.DS_Store
+/build
+/app/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Signing secrets — never commit these.
+keystore.properties
+*.jks
+*.keystore
+
+# Nyers (nagy) generált képek: a kész erőforrások az app/src/main/res alatt vannak
+/matrica/raw/
+/mesek/raw/
+/nyelv/raw/
+*.jpg
