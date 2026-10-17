@@ -80,16 +80,6 @@ val stories: List<Story> = listOf(
         StoryPage(R.drawable.mese_repa_7, "mese_repa_7", "Végül a cica elhívta a kis egeret. A kis egér megfogta a cica farkát, és mindannyian együtt: „Húzzuk, húzzuk, hú-ha!” A répa egyszer csak kipattant a földből, és mindenki hanyatt esett."),
         StoryPage(R.drawable.mese_repa_8, "mese_repa_8", "Nagyot nevettek, aztán a nagymama finom répalevest főzött, és mindenkinek jutott belőle, még a kis egérnek is. Mert együtt még a legnagyobb répát is ki lehet húzni. Jó éjszakát!"),
     )),
-    Story("A kis gömböc", "🍞", listOf(
-        StoryPage(R.drawable.mese_gomboc_1, "mese_gomboc_1", "Egyszer volt, hol nem volt, élt egy öreg néni és egy öreg bácsi. Egy reggel a néni így szólt: „Kedves bácsi, süssünk egy kis gömböcöt!” Összegyúrták a tésztát, és megsütötték."),
-        StoryPage(R.drawable.mese_gomboc_2, "mese_gomboc_2", "A kis gömböc kerek volt és illatos. Kitették az ablakba hűlni, de a gömböc nem akart ott maradni: ugrott egyet, gurult egyet, és már el is gurult az úton."),
-        StoryPage(R.drawable.mese_gomboc_3, "mese_gomboc_3", "Az úton nyuszi ugrált. „Kis gömböc, kis gömböc, megeszlek!” „Ne egyél meg, nyuszi, inkább elénekelem a dalomat!” Elénekelte, és már gurult is tovább."),
-        StoryPage(R.drawable.mese_gomboc_4, "mese_gomboc_4", "Jött egy farkas. „Kis gömböc, kis gömböc, megeszlek!” „Ne egyél meg, farkas, hallgasd meg a dalomat!” Elénekelte, és gurult tovább."),
-        StoryPage(R.drawable.mese_gomboc_5, "mese_gomboc_5", "Jött egy medve. „Kis gömböc, kis gömböc, megeszlek!” De a gömböc ezt énekelte: „Nem eszel meg, medve, a nénitől is elgurultam, a bácsitól is, tőled is elgurulok!” És már gurult is."),
-        StoryPage(R.drawable.mese_gomboc_6, "mese_gomboc_6", "Végül egy ravasz róka állt az útba. „Milyen szép a dalod, kis gömböc! Gyere közelebb, az orromra, hadd halljam jobban!” A gömböc közelebb gurult, és a róka nyam, bekapta!"),
-        StoryPage(R.drawable.mese_gomboc_7, "mese_gomboc_7", "A róka nagyot nyelt, de meglepődött: a kis gömböc úgy kipattant a szájából, mint egy labda! Egyetlen csiklandós ugrással kigurult, és elgurult a dombon."),
-        StoryPage(R.drawable.mese_gomboc_8, "mese_gomboc_8", "Gurult, gurult, egészen haza, a néni és a bácsi házáig. Ott már várta őt egy tányér tej, és együtt vacsoráztak. A gömböc nem ment el többé világot látni. Jó éjszakát!"),
-    )),
     Story("A teknős és a nyúl", "🐢", listOf(
         StoryPage(R.drawable.mese_teknos_1, "mese_teknos_1", "Egyszer volt, hol nem volt, élt egy gyors nyúl és egy lassú teknős. A nyúl mindig azzal dicsekedett, hogy ő a legjobb futó az erdőben. „Ugorj, ugorj, senki sem ér utol!”"),
         StoryPage(R.drawable.mese_teknos_2, "mese_teknos_2", "A teknős csendesen azt felelte: „Én lassú vagyok, de szeretnék versenyezni veled.” A nyúl nagyot nevetett: „Te? Velem? Jó, legyen!”"),
@@ -99,16 +89,6 @@ val stories: List<Story> = listOf(
         StoryPage(R.drawable.mese_teknos_6, "mese_teknos_6", "A teknős nem állt meg. Lassan, de folyamatosan ment tovább, és elhaladt az alvó nyúl mellett. Csendben, nehogy felébressze."),
         StoryPage(R.drawable.mese_teknos_7, "mese_teknos_7", "Mire a nyúl felébredt, a teknős már a tölgyfa közelében járt. A nyúl rohant, ahogy csak bírt, de a teknős egy kis orrhosszal előbb ért be a célba."),
         StoryPage(R.drawable.mese_teknos_8, "mese_teknos_8", "A nyúl megszeppent, de aztán elmosolyodott: „Igazad volt, teknős, a türelem és a kitartás többet ér, mint a gyorsaság.” Kezet fogtak, és onnantól jó barátok lettek. Jó éjszakát!"),
-    )),
-    Story("A mézeskalács-emberke", "🍪", listOf(
-        StoryPage(R.drawable.mese_mezeskalacs_1, "mese_mezeskalacs_1", "Egyszer volt, hol nem volt, élt egy öreg néni, aki nagyon szeretett sütni. Egy délután mézeskalács-tésztából kis emberkét formált, cukormázból szemet, orrot és mosolyt rajzolt neki."),
-        StoryPage(R.drawable.mese_mezeskalacs_2, "mese_mezeskalacs_2", "Amikor kivette a sütőből, a mézeskalács-emberke felült, és azt kiáltotta: „Szia, néni! Én most világot látni indulok!” Leugrott az asztalról, és kiszaladt az ajtón."),
-        StoryPage(R.drawable.mese_mezeskalacs_3, "mese_mezeskalacs_3", "„Állj meg, mézeskalács-emberke!” kiáltotta a néni. De az emberke csak futott: „Fuss, fuss, ahogy bírsz, úgysem fogsz el, mert én vagyok a mézeskalács-emberke!”"),
-        StoryPage(R.drawable.mese_mezeskalacs_4, "mese_mezeskalacs_4", "Az úton találkozott egy tehénnel. „Állj meg, mézeskalács-emberke, megeszlek!” De ő elfutott: „Elfutottam a nénitől, elfutok tőled is!” És szaladt tovább."),
-        StoryPage(R.drawable.mese_mezeskalacs_5, "mese_mezeskalacs_5", "Aztán jött egy ló, később egy juhász kutyája, mindegyik utána szaladt, de az emberke gyorsabb volt mindegyiknél. „Fuss, fuss, ahogy bírsz, úgysem fogsz el!”"),
-        StoryPage(R.drawable.mese_mezeskalacs_6, "mese_mezeskalacs_6", "A végén eljutott egy folyóhoz. Nem tudott átmenni. Ott ült egy ravasz róka. „Segítek átvinni, ülj a hátamra!” mondta. Az emberke felült, de a róka egyre mélyebbre ment."),
-        StoryPage(R.drawable.mese_mezeskalacs_7, "mese_mezeskalacs_7", "„Ülj fel a fejemre, hogy ne ázz el” mondta a róka, és a mézeskalács-emberke felmászott az orrára. De a róka kapott a falat után, és a mézeskalács-emberke ügyesen leugrott a partra."),
-        StoryPage(R.drawable.mese_mezeskalacs_8, "mese_mezeskalacs_8", "A kis emberke megtanulta, hogy nem érdemes mindenkinek hinni. Hazafutott a nénihez, aki már várta egy tál meleg tejjel. Együtt ették meg a többi mézeskalácsot, és az emberke a polcon aludt el. Jó éjszakát!"),
     )),
     Story("Az egér és az oroszlán", "🦁", listOf(
         StoryPage(R.drawable.mese_eger_1, "mese_eger_1", "Egyszer volt, hol nem volt, élt egy nagy oroszlán a szavannán. Az oroszlán a fa alatt szundikált, és nem vette észre, hogy egy kis egér szaladgál a hátán."),

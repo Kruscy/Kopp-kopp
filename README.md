@@ -377,3 +377,7 @@ A répa, A kis gömböc, A teknős és a nyúl, A mézeskalács-emberke, Az egé
 ## Kopp-kopp: új név, 16 mese (v27 / 1.26)
 
 Az alkalmazás neve mostantól **Kopp-kopp** (a launcher-név és a kezdőoldal címe). Öt új mese: A vitéz szabólegény, Az aranytojást tojó tyúk, A farkas és a bárány, A Csizmás kandúr, A tücsök és a hangya, így 16 mese van a mesekönyvben. Hátra van Jancsi és Juliska (szöveg kész, kép és hang még nincs).
+
+## Két mese kikerült (v28 / 1.27)
+
+A kis gömböc és a mézeskalács-emberke túlságosan hasonlított a Pogácsához, ezért kikerült a mesekönyvből (14 mese maradt). A szöveg a `mesek/mesek_szoveg_2.md` végén van, a kép és a hang a (git által kizárt) `mesek/kivett/` mappában.

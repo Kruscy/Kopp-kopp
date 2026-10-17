@@ -23,3 +23,5 @@ keystore.properties
 
 # Telepítők a GitHub Releases oldalon vannak, nem a repóban
 /telepito/*.apk
+
+/mesek/kivett/
