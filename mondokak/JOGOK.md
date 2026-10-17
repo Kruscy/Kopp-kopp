@@ -30,6 +30,21 @@ ellenőrző keresések (2026-10-17). Magyarországon a szerzői jog a szerző ha
 | 15 | Cini, cini muzsika | népi | Hagyományos mondóka. |
 | 16 | Ciróka-maróka | népi | Hagyományos csiklandozó mondóka. |
 | 17 | Kecske ment a kiskertbe | népi | Hagyományos mondóka. |
+| 18 | Akinek a szeme kék | népi | Hagyományos mondóka. |
+| 19 | Egyszer volt egy ember | népi | Hagyományos mondóka. |
+| 20 | Én kis kertész legény vagyok | népi | Hagyományos (locsolós) mondóka. |
+| 21 | Hátamon a zsákom | népi | Hagyományos mondóka. |
+| 22 | Esik az eső, hajlik a vessző | népi | Hagyományos mondóka. |
+| 23 | Három görbe legényke | népi | Hagyományos mondóka (a „róka rege róka” a refrén). |
+| 24 | Egyszer volt egy kemence | ellenőrizendő | Közismert mondóka, a szerzőjét nem találtam meg biztosan; szerző nélkül közlik. |
+| 25 | Megy a hajó a Dunán | ellenőrizendő | Közismert gyermekmondóka/dal, a szerzője bizonytalan; szerző nélkül közlik. |
+| 26 | Ess, eső, ess | népi | Hagyományos esőhívó mondóka. |
+| 27 | Kipp-kopp, kalapács | népi | Hagyományos mondóka. |
+| 28 | Kerekecske, dombocska | népi | Hagyományos játékmondóka. |
+| 29 | Íze van a sónak | népi | Hagyományos mondóka. |
+| 30 | Egyedem, begyedem | népi | Hagyományos kiszámoló. |
+| 31 | Ez a malac piacra ment | népi | Hagyományos ujjjáték. |
+| 32 | Hétfőn hentereg | ellenőrizendő | Közismert napokat sorolós mondóka; a szerzőjét nem találtam meg biztosan, szerző nélkül közlik. |
 
 **Soha ne tegyünk bele** jogvédett költőktől: Weöres Sándor, Nemes Nagy Ágnes, Zelk Zoltán, Szilágyi Domokos, Tamkó Sirató Károly, Kányádi Sándor,
 Gazdag Erzsi, Gryllus Vilmos (a halálukat követő 70 évig, illetve amíg élnek, védettek).
