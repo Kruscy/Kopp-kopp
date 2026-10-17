@@ -13,7 +13,7 @@ Android-játékgyűjtemény 4 éves gyerekeknek (PIN-zárolt kezdőlap, kioszk m
 A projekt jelenleg belső tesztelésben van a Play-en, de **nincs rá szükség**: az aláírt telepítő
 közvetlenül feltölthető a készülékre.
 
-1. Töltsd le a legfrissebb APK-t: [`telepito/kolyok-v25-1.24.apk`](telepito/kolyok-v25-1.24.apk)
+1. Töltsd le a legfrissebb APK-t: [`telepito/kolyok-v26-1.25.apk`](telepito/kolyok-v26-1.25.apk)
    (a GitHubon a fájl oldalán a *Download raw file* gombbal; kb. 80 MB).
 2. Nyisd meg a tableten/telefonon, és engedélyezd az ismeretlen forrásból való telepítést
    (Android 8.0+ / API 26+; a rendszer rákérdez, melyik alkalmazásnak engedélyezed).
@@ -370,3 +370,7 @@ A Zene játék megnyitáskor magától elindul, és lassabban (520 ms/lépés) j
 ## Kódgyár (v25 / 1.24)
 
 Új játék a főoldalon (Kódgyár). Egy kedves robotot kell a csillagokhoz vezetni: a négy színes nyílgombbal (jobbra, balra, fel, le) programot lehet összerakni (legfeljebb 10 lépés), a zöld lejátszás gombbal a robot sorban végrehajtja (a futó lépés kiemelve). Hatféle szint, egyre több csillaggal és sziklával. Hibázni nem lehet: ha a robot falnak vagy sziklának megy, megrázkódik; ha nem gyűjtött össze minden csillagot, szelíden visszagurul az elejére, és a program marad, javítható. Siker esetén konfetti, majd a következő szint jön. A hangeffektek a SoundFx-ből szólnak.
+
+## Öt új mese: 11 mese a mesekönyvben (v26 / 1.25)
+
+A répa, A kis gömböc, A teknős és a nyúl, A mézeskalács-emberke, Az egér és az oroszlán (mesenként 8 oldal, kép és magyar hang). A szövegek a `mesek/mesek_szoveg.md`-ben vannak; a további 6 mese szövege (`mesek/mesek_szoveg_2.md`) még kép és hang nélkül vár. A mesekönyv polca 11 mesével már görgethető. A hangokat fizetős (Starter) csomagon generáltuk.
