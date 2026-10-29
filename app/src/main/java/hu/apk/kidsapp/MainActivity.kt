@@ -44,6 +44,7 @@ import hu.apk.kidsapp.ui.screens.hockey.HockeyGameScreen
 import hu.apk.kidsapp.ui.screens.language.LanguageGameScreen
 import hu.apk.kidsapp.ui.screens.code.CodeFactoryScreen
 import hu.apk.kidsapp.ui.screens.cooking.CookingScreen
+import hu.apk.kidsapp.ui.screens.drive.DriveScreen
 import hu.apk.kidsapp.ui.screens.music.MusicScreen
 import hu.apk.kidsapp.ui.screens.piano.PianoScreen
 import hu.apk.kidsapp.ui.screens.scene.SceneWorldScreen
@@ -285,6 +286,9 @@ private fun AppRoot(activity: ComponentActivity, pinManager: PinManager) {
         }
         composable(Routes.GAME_RHYMES) {
             StoryBookScreen(onBack = { back() }, title = "Mondókák", items = mondokak, otherLabel = "🎵 Másik mondóka")
+        }
+        composable(Routes.GAME_DRIVE) {
+            DriveScreen(onBack = { back() })
         }
     }
     }

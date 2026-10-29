@@ -389,3 +389,7 @@ A kis gömböc és a mézeskalács-emberke túlságosan hasonlított a Pogácsá
 ## Mondókák (v30 / 1.29)
 
 Új játék (Mondókák): 32 hagyományos mondóka (17 rövid és 15 hosszabb, 6-8 soros), mindegyikhez saját rajz (ugyanaz az akvarell stílus, mint a meséknél) és felolvasás. Ugyanaz a polc és olvasó, mint a mesekönyvé (egy oldalas mondókákhoz külön elrendezés: kép balra, szöveg jobbra). A szövegek és a jogi állapot: `mondokak/mondokak_szoveg.md`, `mondokak/JOGOK.md` (a Gazdag Erzsi, Kányádi Sándor és Gryllus Vilmos darabokat kiadás előtt ki kell venni). A Kémény tetején, a Zápor előtt, a Cserregnek a verebek és az Aki fázik szövege jogvédett, kiadás előtt kivenni.
+
+## Vezess! autós játék (v31 / 1.30)
+
+Új játék (Vezess!): felülnézeti úton egy piros autót vezetünk, a tablet jobbra-balra döntésével kanyarodik (gyorsulásmérő; a képernyő elforgatását figyelembe veszi). Tartalék kormányzás: a képernyő bal vagy jobb felének nyomása. Az úton lassabban haladó autókat ki kell kerülni; ha ütközünk, az autó megrázkódik, lelassul és a másik kocsi eltávolodik (nincs vége a játéknak). Minden elkerült autó után fut a csillagszámláló, tízenként gratuláció. A sebesség lassan nő. A SoundFx hangjai szólnak.
