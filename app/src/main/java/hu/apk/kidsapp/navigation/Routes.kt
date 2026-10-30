@@ -30,4 +30,5 @@ object Routes {
     const val GAME_PIANO = "game_piano"
     const val GAME_RHYMES = "game_rhymes"
     const val GAME_DRIVE = "game_drive"
+    const val GAME_MEMORY = "game_memory"
 }

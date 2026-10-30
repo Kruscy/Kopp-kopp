@@ -58,6 +58,7 @@ val homeTiles = listOf(
     HomeTile(Routes.GAME_PIANO, "Zongora", Icons.Filled.Piano, Color(0xFF5E35B1)),
     HomeTile(Routes.GAME_RHYMES, "Mondókák", Icons.Filled.RecordVoiceOver, Color(0xFFFFA726)),
     HomeTile(Routes.GAME_DRIVE, "Vezess!", Icons.Filled.DriveEta, Color(0xFFE53935)),
+    HomeTile(Routes.GAME_MEMORY, "Memória", Icons.Filled.Extension, Color(0xFF7E57C2)),
 ).filter { it.route != Routes.GAME_LANGUAGE || LANGUAGE_GAME_READY }
 
 /**

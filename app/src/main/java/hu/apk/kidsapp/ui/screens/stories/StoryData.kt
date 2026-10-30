@@ -150,4 +150,14 @@ val stories: List<Story> = listOf(
         StoryPage(R.drawable.mese_tuecsok_7, "mese_tuecsok_7", "A hangya beengedte a tücsköt a meleg bolyba, adott neki egy kis magot, és a tücsök egész télen hegedült a hangyáknak. A hangyák tapsoltak, és a hosszú téli esték kellemesen teltek."),
         StoryPage(R.drawable.mese_tuecsok_8, "mese_tuecsok_8", "Tavasszal a tücsök megígérte, hogy ősszel ő is segít gyűjteni, a hangyák pedig megígérték, hogy a nyár esti koncertjeire eljönnek. Jó éjszakát!"),
     )),
+    Story("Jancsi és Juliska", "🍪", listOf(
+        StoryPage(R.drawable.mese_jancsi_1, "mese_jancsi_1", "Egyszer volt, hol nem volt, egy nagy erdő szélén élt egy fából faragó, a felesége, és két gyerekük: Jancsi és Juliska. Kevés volt a kenyerük, de szerették egymást."),
+        StoryPage(R.drawable.mese_jancsi_2, "mese_jancsi_2", "Egy nap a gyerekek bementek az erdőbe gombát szedni. Jancsi kavicsokat szórt az útra, hogy hazataláljanak, de mire észbe kaptak, esteledett, és madarak csipegették fel a morzsákat."),
+        StoryPage(R.drawable.mese_jancsi_3, "mese_jancsi_3", "Eltévedtek a nagy erdőben. Mentek, mentek, és egyszer csak egy kis házikót láttak, ami mézeskalácsból, cukorból és csokoládéból volt."),
+        StoryPage(R.drawable.mese_jancsi_4, "mese_jancsi_4", "„Nézd, Jancsi, a tető mézeskalács!” kiáltott Juliska. Kis falatot letört, és ő is, meg Jancsi is boldogan majszolt. Ekkor kinyílt az ajtó, és egy öreg néni lépett ki."),
+        StoryPage(R.drawable.mese_jancsi_5, "mese_jancsi_5", "„Gyertek be, gyerekek!” mondta a néni kedvesen. A gyerekek bementek, a néni vacsorát adott, és puha ágyba fektette őket. De a néni valójában egy rossz boszorkány volt, aki be akarta zárni őket."),
+        StoryPage(R.drawable.mese_jancsi_6, "mese_jancsi_6", "Másnap reggel a boszorkány Jancsit egy ketrecbe zárta, Juliskának pedig azt mondta, hogy dolgozzon. De Juliska ügyes volt: a boszorkány nem látta jól, ezért Jancsi egy csontot nyújtott ki a rácson, és azt hitte, hogy még mindig sovány."),
+        StoryPage(R.drawable.mese_jancsi_7, "mese_jancsi_7", "Egy nap a boszorkány azt mondta Juliskának, hogy nézzen be a kemencébe. Juliska ügyesen azt felelte: „Nem tudom, hogyan kell, mutasd meg te!” Amikor a boszorkány behajolt, Juliska egy kis tolással becsukta az ajtót."),
+        StoryPage(R.drawable.mese_jancsi_8, "mese_jancsi_8", "Juliska kiszabadította Jancsit, és a ház ajtaján át kimentek. Egy kedves hattyú átvitte őket a folyón, és hazataláltak. Az apjuk már nagyon várta őket, és soha többé nem engedte el őket egyedül. Jó éjszakát!"),
+    )),
 )

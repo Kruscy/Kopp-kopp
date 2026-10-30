@@ -397,3 +397,7 @@ A kis gömböc és a mézeskalács-emberke túlságosan hasonlított a Pogácsá
 ## Vezess! ritkább autók (v32 / 1.31)
 
 A Vezess! játékban az autók távolságtartó sorokban jönnek (új sor csak akkor, ha az előző már messze van), ritkábban két autó egy sorban, így mindig marad idő kikerülni őket. A sűrűség a kikerült autókkal lassan nő.
+
+## Memória és Jancsi és Juliska (v33 / 1.32)
+
+Új játék (Memória): párkereső állatos kártyákkal. A szintek nőnek (3, 4, 6, majd 8 pár), a kártyák megfordulnak, a megtalált pár zöld keretet kap, a hibás tipp nem büntet, csak visszafordul. A végén gratuláció, utána automatikusan jön a következő pálya. Új mese: Jancsi és Juliska (8 oldal, saját rajz és felolvasás, a mesék már 15-en vannak).

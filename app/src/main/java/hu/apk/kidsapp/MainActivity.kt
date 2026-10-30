@@ -45,6 +45,7 @@ import hu.apk.kidsapp.ui.screens.language.LanguageGameScreen
 import hu.apk.kidsapp.ui.screens.code.CodeFactoryScreen
 import hu.apk.kidsapp.ui.screens.cooking.CookingScreen
 import hu.apk.kidsapp.ui.screens.drive.DriveScreen
+import hu.apk.kidsapp.ui.screens.memory.MemoryScreen
 import hu.apk.kidsapp.ui.screens.music.MusicScreen
 import hu.apk.kidsapp.ui.screens.piano.PianoScreen
 import hu.apk.kidsapp.ui.screens.scene.SceneWorldScreen
@@ -289,6 +290,9 @@ private fun AppRoot(activity: ComponentActivity, pinManager: PinManager) {
         }
         composable(Routes.GAME_DRIVE) {
             DriveScreen(onBack = { back() })
+        }
+        composable(Routes.GAME_MEMORY) {
+            MemoryScreen(onBack = { back() })
         }
     }
     }
