@@ -393,3 +393,7 @@ A kis gömböc és a mézeskalács-emberke túlságosan hasonlított a Pogácsá
 ## Vezess! autós játék (v31 / 1.30)
 
 Új játék (Vezess!): felülnézeti úton egy piros autót vezetünk, a tablet jobbra-balra döntésével kanyarodik (gyorsulásmérő; a képernyő elforgatását figyelembe veszi). Tartalék kormányzás: a képernyő bal vagy jobb felének nyomása. Az úton lassabban haladó autókat ki kell kerülni; ha ütközünk, az autó megrázkódik, lelassul és a másik kocsi eltávolodik (nincs vége a játéknak). Minden elkerült autó után fut a csillagszámláló, tízenként gratuláció. A sebesség lassan nő. A SoundFx hangjai szólnak.
+
+## Vezess! ritkább autók (v32 / 1.31)
+
+A Vezess! játékban az autók távolságtartó sorokban jönnek (új sor csak akkor, ha az előző már messze van), ritkábban két autó egy sorban, így mindig marad idő kikerülni őket. A sűrűség a kikerült autókkal lassan nő.

@@ -249,13 +249,16 @@ private fun step(sim: Sim, w: Float, h: Float, now: Float, dt: Float, sfx: Sound
     }
 
     // új autók
+    // Az új sor csak akkor jön, ha az előző már jó messze van: így mindig marad idő kikerülni.
     sim.spawnIn -= dt
-    if (sim.spawnIn <= 0f) {
-        sim.spawnIn = max(0.7f, 1.7f - sim.passed * 0.012f) * (0.8f + Random.nextFloat() * 0.5f)
-        val count = if (Random.nextInt(10) < 3) 2 else 1
+    val gap = g.carLen * max(3.0f, 4.6f - sim.passed * 0.03f)
+    val nearest = sim.others.minOfOrNull { it.y } ?: gap
+    if (sim.spawnIn <= 0f && nearest > gap - g.carLen) {
+        sim.spawnIn = 0.4f
+        val count = if (Random.nextInt(10) < 1) 2 else 1
         val free = (0..2).filter { l -> sim.others.none { abs(it.x - g.lanes[l]) < 0.1f && it.y < g.carLen * 2.4f } }.shuffled().take(count)
         for (l in free) {
-            sim.others.add(Other(g.lanes[l], -g.carLen, carColors.random(), 0.35f + Random.nextFloat() * 0.2f))
+            sim.others.add(Other(g.lanes[l], -g.carLen, carColors.random(), 0.40f + Random.nextFloat() * 0.05f))
         }
     }
 
