@@ -34,6 +34,7 @@ titles = {
     "kandur": ("A Csizmás kandúr", "🐈"),
     "tuecsok": ("A tücsök és a hangya", "🦗"),
     "jancsi": ("Jancsi és Juliska", "🍪"),
+    "pasztor": ("A pásztorfiú és a farkas", "🐺"),
 }
 assert set(titles) == set(tales), (set(titles) ^ set(tales))
 

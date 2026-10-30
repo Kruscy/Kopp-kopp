@@ -166,3 +166,14 @@ Minden "# oldal" egy képernyő: egy illusztráció + egy hangfelvétel. A hangf
 6. Másnap reggel a boszorkány Jancsit egy ketrecbe zárta, Juliskának pedig azt mondta, hogy dolgozzon. De Juliska ügyes volt: a boszorkány nem látta jól, ezért Jancsi egy csontot nyújtott ki a rácson, és azt hitte, hogy még mindig sovány.
 7. Egy nap a boszorkány azt mondta Juliskának, hogy nézzen be a kemencébe. Juliska ügyesen azt felelte: „Nem tudom, hogyan kell, mutasd meg te!” Amikor a boszorkány behajolt, Juliska egy kis tolással becsukta az ajtót.
 8. Juliska kiszabadította Jancsit, és a ház ajtaján át kimentek. Egy kedves hattyú átvitte őket a folyón, és hazataláltak. Az apjuk már nagyon várta őket, és soha többé nem engedte el őket egyedül. Jó éjszakát!
+
+## A pásztorfiú és a farkas (pasztor)
+
+1. Egyszer volt, hol nem volt, egy kis faluban élt egy pásztorfiú, Peti. Minden reggel kivitte a báránykáit a hegyoldalra legelni, és ott egész nap egyedül volt velük.
+2. Peti nagyon unatkozott. Eszébe jutott egy csínytevés: felmászott egy nagy szikla tetejére, és torkaszakadtából kiáltotta: „Farkas! Farkas! Segítség, jön a farkas!”
+3. A falusiak ásót, kapát ragadtak, és rohantak fel a hegyre. De farkas sehol sem volt. Peti a hasát fogta nevettében, a falusiak pedig szomorúan mentek haza.
+4. Pár nap múlva Peti megint unatkozott, és megint elkiáltotta magát: „Farkas! Farkas!” A falusiak megint felfutottak, és megint hiába. „Ne tréfálkozz ilyesmivel, Peti!” mondta az öreg bácsi, és megcsóválta az ujját.
+5. Másnap este, amikor lement a nap, egy igazi farkas lépett ki az erdőből. Peti nagyon megijedt, és kiáltott, ahogy csak bírt: „Farkas! Farkas! Segítség, most tényleg itt van!”
+6. De a falusiak azt mondták: „Peti megint tréfál, nem megyünk fel.” Senki sem jött. A farkas megriasztotta a bárányokat, és azok szanaszét szaladtak a hegyoldalon.
+7. Peti sírva szaladt le a faluba. „Most igazat mondtam, tényleg itt volt a farkas!” A falusiak most már hittek neki, és vele együtt lámpással keresték a báránykákat az éjszakában.
+8. Reggelre az összes báránykát megtalálták, egy sem veszett el. Peti megígérte: „Soha többé nem tréfálkozom így. Aki sokat hazudik, annak akkor sem hisznek, amikor igazat mond.” És Peti ettől fogva mindig igazat mondott. Jó éjszakát!

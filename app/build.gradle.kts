@@ -20,8 +20,8 @@ android {
         applicationId = "hu.apk.kidsapp"
         minSdk = 26
         targetSdk = 37
-        versionCode = 33
-        versionName = "1.32"
+        versionCode = 34
+        versionName = "1.33"
     }
 
     signingConfigs {

@@ -401,3 +401,7 @@ A Vezess! játékban az autók távolságtartó sorokban jönnek (új sor csak a
 ## Memória és Jancsi és Juliska (v33 / 1.32)
 
 Új játék (Memória): párkereső állatos kártyákkal. A szintek nőnek (3, 4, 6, majd 8 pár), a kártyák megfordulnak, a megtalált pár zöld keretet kap, a hibás tipp nem büntet, csak visszafordul. A végén gratuláció, utána automatikusan jön a következő pálya. Új mese: Jancsi és Juliska (8 oldal, saját rajz és felolvasás, a mesék már 15-en vannak).
+
+## A pásztorfiú és a farkas (v34 / 1.33)
+
+Új mese: A pásztorfiú és a farkas (a kisfiú, aki farkast kiáltott). 8 oldal, saját újramesélés, saját rajz és felolvasás; a mesék már 16-an vannak. A vége szelíd: a bárányok mind megkerülnek, Peti megtanulja, hogy mindig igazat kell mondani.
